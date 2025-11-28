@@ -7,10 +7,10 @@
     7  git commit -m "main_test.txt is added"
     8  git push origin main
     9  git clone https://github.com/AndrewBondarev/HW_10.git  
-   10  cd HW_10
-   11  touch text_ignore.txt
+   
+   11
    12  nano .gitignore
-   13  git status
+   13  
    14  git add .
    15  git commit -m "text_ignore.txt was ignored"
    16  touch main_test.txt
